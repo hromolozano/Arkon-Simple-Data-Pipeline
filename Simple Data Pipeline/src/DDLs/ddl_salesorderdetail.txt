@@ -1,0 +1,13 @@
+CREATE TABLE public.salesorderdetail
+(
+SalesOrderID integer,
+SalesOrderDetailID integer,
+OrderQty integer,
+ProductID integer,
+UnitPrice float,
+UnitPriceDiscount float,
+LineTotal float,
+rowguid varchar(4000),
+ModifiedDate date,
+PRIMARY KEY (SalesOrderID, ProductID)
+)

@@ -1,0 +1,26 @@
+CREATE TABLE public.salesorderheader
+(
+SalesOrderID integer,
+RevisionNumber integer,
+OrderDate date,
+DueDate date,
+ShipDate date,
+Status integer,
+OnlineOrderFlag boolean,
+SalesOrderNumber varchar(4000),
+PurchaseOrderNumber varchar(4000),
+AccountNumber varchar(4000),
+CustomerID integer,
+ShipToAddressID integer,
+BillToAddressID integer,
+ShipMethod varchar(4000),
+CreditCardApprovalCode varchar(4000),
+SubTotal float,
+TaxAmt float,
+Freight float,
+TotalDue float,
+Comment varchar(4000),
+rowguid varchar(4000),
+ModifiedDate date,
+PRIMARY KEY (CustomerID, SalesOrderID)
+)

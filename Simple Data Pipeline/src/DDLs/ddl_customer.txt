@@ -1,0 +1,18 @@
+CREATE TABLE public.customer
+(
+CustomerID integer PRIMARY KEY,
+NameStyle boolean,
+Title varchar(4000),
+FirstName varchar(4000),
+MiddleName varchar(4000),
+LastName varchar(4000),
+Suffix varchar(4000),
+CompanyName varchar(4000),
+SalesPerson varchar(4000),
+EmailAddress varchar(4000),
+Phone integer,
+PasswordHash varchar(4000),
+PasswordSalt varchar(4000),
+rowguid varchar(4000),
+ModifiedDate date
+)

@@ -1,0 +1,21 @@
+CREATE TABLE public.product
+(
+ProductID integer,
+Name varchar(4000),
+ProductNumber varchar(4000),
+Color varchar(4000),
+StandardCost float,
+ListPrice float,
+Size varchar(6),
+Weight float,
+ProductCategoryID integer,
+ProductModelID integer,
+SellStartDate date,
+SellEndDate date,
+DiscontinuedDate date,
+ThumbNailPhoto varchar(4000),
+ThumbnailPhotoFileName varchar(4000),
+rowguid varchar(4000),
+ModifiedDate date,
+PRIMARY KEY (ProductID, ProductCategoryID, ProductModelID)
+)

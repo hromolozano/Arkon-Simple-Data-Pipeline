@@ -1,0 +1,12 @@
+CREATE TABLE IF NOT EXISTS public.address
+(
+AddressID integer PRIMARY KEY,
+AddressLine1 varchar(4000),
+AddressLine2 varchar(4000),
+City varchar(4000),
+StateProvince varchar(4000),
+CountryRegion varchar(4000),
+PostalCode integer,
+rowguid varchar(4000),
+ModifiedDate date
+)

@@ -1,0 +1,9 @@
+CREATE TABLE public.productmodelproductdescription
+(
+ProductModelID integer,
+ProductDescriptionID integer,
+Culture varchar(12),
+rowguid varchar(4000),
+ModifiedDate date,
+PRIMARY KEY (ProductModelID, ProductDescriptionID)
+)

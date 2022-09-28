@@ -1,0 +1,7 @@
+CREATE TABLE public.productdescription
+(
+ProductDescriptionID integer PRIMARY KEY,
+Description varchar(4000),
+rowguid varchar(4000),
+ModifiedDate date
+)

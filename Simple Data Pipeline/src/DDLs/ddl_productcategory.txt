@@ -1,0 +1,8 @@
+CREATE TABLE public.productcategory
+(
+ProductCategoryID integer PRIMARY KEY,
+ParentProductCategoryID integer,
+Name varchar(4000),
+rowguid varchar(4000),
+ModifiedDate date
+)

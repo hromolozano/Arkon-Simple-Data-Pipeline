@@ -1,0 +1,9 @@
+CREATE TABLE public.customeraddress
+(
+CustomerID integer,
+AddressID integer,
+AddressType varchar(4000),
+rowguid varchar(4000),
+ModifiedDate date,
+PRIMARY KEY (CustomerID, AddressID)
+)
